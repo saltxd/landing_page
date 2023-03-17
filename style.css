@@ -67,6 +67,7 @@ body{
     flex-wrap: wrap;
     padding: 32px;
     font-size: 10px;
+    justify-content: space-evenly;
 
   }
 
