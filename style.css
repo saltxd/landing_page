@@ -68,12 +68,22 @@ body{
 }
 
 .card{
-    border: 1px solid #eee;
+    border: 1px solid blue;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
     width: 100px;
+    height: 100px;
     padding: 10px;
     margin: 16px;
+}
+
+.card1, .card2, .card3, .card4{
+    color: black;
+    font-size: 16px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .main{
@@ -82,14 +92,12 @@ body{
     padding: 32px;
     font-size: 10px;
     justify-content: space-evenly;
-
   }
 
   .main-header{
     font-size: 36px;
     font-weight: extra-bold;
     color: 1F2937;
-   
     display: flex;
     width: 100vh;
     justify-content: center;
