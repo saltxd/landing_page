@@ -85,6 +85,16 @@ body{
 
   }
 
+  .main-header{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: 1F2937;
+   
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+  }
+
   ul{
     list-style-type: none;
     margin: 0;
