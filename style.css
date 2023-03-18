@@ -79,7 +79,7 @@ body{
 
 .card1, .card2, .card3, .card4{
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     width: 150px;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ body{
     flex-wrap: wrap;
     padding: 32px;
     font-size: 10px;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .main-header{
