@@ -31,24 +31,30 @@ body{
     width: 50vh;
     background-color: gray;
     text-align: center;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 15px;
 }
 
 .hero-left{
     width: 50vh;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 15px;
 }
 
-.quotes{
-    
+.quotes{   
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
     font-style: light italic;
     flex:1;
     display: flex;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.quote-author{
+    text-align: right;
 }
 
 .action{
