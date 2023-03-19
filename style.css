@@ -58,10 +58,37 @@ body{
 }
 
 .action{
-    height: 72px;
     background-color: #3882F6;
+    color: white;
     display: flex;
+    padding: 20px;
+    margin: 5%;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px;
+    margin: 4px 2px;
+    border: 2px solid white;
+}
+
+.action-right, .action-left{
+    width: 50vh;
     flex-shrink: 0;
+}
+
+.action-left{
+    flex-direction: column;
+}
+
+.action-right{
+  
 }
 
 .footer{
@@ -143,3 +170,9 @@ body{
     padding: 8px;
     margin: 4px 2px;
   }
+
+  p{
+    font-size: 12px;
+  }
+
+  
