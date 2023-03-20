@@ -7,10 +7,6 @@ body{
     flex-direction: column;  
 }
 
-.content{
-       
-}
-
 .header{
     height: 72px;
     background-color: #1F2937;
@@ -24,7 +20,8 @@ body{
 .hero {
     display: flex;
     background-color: #1F2937;
-    color: #f9faf8;  
+    color: #f9faf8;
+    padding: 10px 10px;  
 }
 
 .hero-right{
@@ -73,7 +70,7 @@ body{
     border-radius: 12px;
     font-size: 16px;
     text-align: center;
-    padding: 8px;
+    padding: 8px 16px;
     margin: 4px 2px;
     border: 2px solid white;
 }
@@ -87,10 +84,6 @@ body{
     flex-direction: column;
 }
 
-.action-right{
-  
-}
-
 .footer{
     height: 72px;
     background-color: #1F2937;
@@ -98,6 +91,7 @@ body{
     margin-top: auto;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .card{
@@ -167,8 +161,8 @@ body{
     border-radius: 12px;
     font-size: 16px;
     text-align: center;
-    padding: 8px;
-    margin: 4px 2px;
+    padding: 8px 16px;
+    margin: 5px 2px;
   }
 
   p{
